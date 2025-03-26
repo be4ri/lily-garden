@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Butterfly+Kids&display=swap');
+
+
+
+.BodyHomePage{
+    background: linear-gradient(var(--myDarkPink),#FFEFF5);
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: 100%;
+    margin:0;
+    flex-direction: column;
+    opacity: 80%;
+  }
+
+.topBar{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.profileButton{
+    background-color: rgb(255, 227, 227);
+    box-sizing: border-box;
+    padding: 15px 20px;
+  
+    font-family: 'Butterfly Kids';
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px rgb(103, 103, 103);
+  
+    border-radius: 5px;
+    border-color: black;
+    border: 1px;
+  
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(255, 227, 227);
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-right: 370px;
+    min-width: 130px;
+}
+
+.profileButton:hover {background-color:  rgb(250, 200, 200)}
+
+.profileButton:active {
+  background-color: rgb(250, 200, 200);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.LilyText{
+    font-family: "Akaya Telivigala";
+    font-size: 40px;
+    font-weight: 50px;
+    font-style: normal;
+    fill: black;
+    stroke: var(--myDarkPink);
+    text-shadow: 10px;
+    opacity: 70%;
+    
+}
+
+.usersButton{
+    background-color: rgb(255, 227, 227);
+    box-sizing: border-box;
+    padding: 15px 20px;
+  
+    font-family: 'Butterfly Kids';
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px rgb(103, 103, 103);
+  
+    border-radius: 5px;
+    border-color: black;
+    border: 1px;
+  
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(255, 227, 227);
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 370px;
+    min-width: 130px;
+}
+
+.usersButton:hover {background-color:  rgb(250, 200, 200)}
+
+.usersButton:active {
+  background-color: rgb(250, 200, 200);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.myLine{
+    margin-left: 20px;
+    border: 2px solid rgb(255, 231, 247);
+    border-radius: 5px;
+}

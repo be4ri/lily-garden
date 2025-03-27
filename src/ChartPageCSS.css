@@ -1,0 +1,81 @@
+
+.chartPage{
+    background: linear-gradient(var(--myDarkPink),#FFEFF5);
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: 120%;
+    margin:0;
+    flex-direction: column;
+    opacity: 80%;
+}
+
+.myChart{
+    width: 200px;
+     height: 200px;
+}
+
+.chartButton{
+    background-color: rgb(255, 227, 227);
+    box-sizing: border-box;
+    padding: 10px 30px;
+  
+    font-family: 'Butterfly Kids';
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px rgb(103, 103, 103);
+  
+    border-radius: 5px;
+    border-color: black;
+    border: 1px;
+  
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(255, 227, 227);
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.chartButton:hover {background-color:  rgb(250, 200, 200)}
+
+.chartButton:active {
+  background-color: rgb(250, 200, 200);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.addUserButton{
+    background-color: rgb(255, 227, 227);
+    box-sizing: border-box;
+    padding: 10px 30px;
+  
+    font-family: 'Butterfly Kids';
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px rgb(103, 103, 103);
+  
+    border-radius: 5px;
+    border-color: black;
+    border: 1px;
+  
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(255, 227, 227);
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+
+.addUserButton:hover {background-color:  rgb(250, 200, 200)}
+
+.addUserButton:active {
+    background-color: rgb(250, 200, 200);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

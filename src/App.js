@@ -4,6 +4,7 @@ import SignUpPage from "./SignUpPage";
 import HomePage from "./HomePage";
 import UsersPage from "./UsersPage";
 import UpdateProfilePage from "./UpdateProfiePage";
+import ChartPage from "./ChartPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/users" element={<UsersPage />} />
           <Route path="/updateprofile" element={<UpdateProfilePage />}></Route>
+          <Route path="/chart" element={<ChartPage />}></Route>
         </Routes>
       </Router>
     </UserProvider>
